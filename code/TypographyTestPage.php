@@ -123,7 +123,7 @@ class TypographyTestPage_Controller extends Page_Controller {
 				$errorField4,
 				new HeaderField($name = "HeaderField2b", $title = "Field with right title", 2),
 				$rightTitle,
-				new TextareaField($name = "TextareaField", $title = "Textarea Field", 5, 5),
+				new TextareaField($name = "TextareaField", $title = "Textarea Field"),
 				new EmailField("EmailField", "Email address"),
 				new HeaderField($name = "HeaderField2c", $title = "HeaderField Level 2", 2),
 				new DropdownField($name = "DropdownField",$title = "Dropdown Field",$source = Geoip::getCountryDropDown()),
