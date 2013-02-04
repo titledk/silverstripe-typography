@@ -158,6 +158,20 @@ class TypographyTestPage_Controller extends Page_Controller {
 		return $this->renderWith("TypographySample");
 	}
 
+	public function SiteColours() {
+		Requirements::themedCSS("CssColorChart");
+		Requirements::javascript("typography/javascript/CssColorChart.js");
+		require_once(Director::baseFolder()."/typography/thirdparty/csscolorchart.php");
+		$cssColorChart = new CssColorChart();
+		return $cssColorChart->listColors(Director::baseFolder()."/themes/");
+	}
+
+	function replacecolours() {
+		require_once(Director::baseFolder()."/typography/thirdparty/csscolorchart.php");
+		$cssColorChart = new CssColorChart();
+		echo $cssColorChart->replaceColours(Director::baseFolder()."/themes/");
+	}
+
 }
 
 
