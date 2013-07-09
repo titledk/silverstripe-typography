@@ -531,6 +531,62 @@
 	Ut gravida sodales nisi.
 	Morbi pede.
 </p>
+
+
+<h4>example of heading 4</h4>
+<p>
+	Below is an example of a simple table.
+	There is a myriad of more sophisticated formatting you can apply to tables.
+	Shown here are cell headings and standard cells.
+</p>
+<h4 id="tereomaori">testing extended character sets using Te Reo Māori</h4>
+<p>
+		The additional characters for Te Reo Maori (the Māori Language) are:  ā, ē, ī, ō, ū, Ā, Ē, Ī, Ō and Ū.
+		<br />ā: code (&amp;#257;) shows as: &#257;, Ā: code (&amp;#256;) shows as: &#256;
+		<br />ē: code (&amp;#275;) shows as: &#275;, Ē: code (&amp;#274;) shows as: &#274;
+		<br />ī: code (&amp;#299;) shows as: &#299;, Ī: code (&amp;#298;) shows as: &#298;
+		<br />ō: code (&amp;#333;) shows as: &#333;, Ō: code (&amp;#332;) shows as: &#332;
+		<br />ū: code (&amp;#363;) shows as: &#363;, Ū: code (&amp;#362;) shows as: &#362;
+</p>
+<h5>trying the same in bold</h5>
+<p>
+	<strong><b>
+		The additional characters for Te Reo Maori (the Māori Language) are:  ā, ē, ī, ō, ū, Ā, Ē, Ī, Ō and Ū.
+		<br />ā: code (&amp;#257;) shows as: &#257;, Ā: code (&amp;#256;) shows as: &#256;
+		<br />ē: code (&amp;#275;) shows as: &#275;, Ē: code (&amp;#274;) shows as: &#274;
+		<br />ī: code (&amp;#299;) shows as: &#299;, Ī: code (&amp;#298;) shows as: &#298;
+		<br />ō: code (&amp;#333;) shows as: &#333;, Ō: code (&amp;#332;) shows as: &#332;
+		<br />ū: code (&amp;#363;) shows as: &#363;, Ū: code (&amp;#362;) shows as: &#362;
+
+	</b></strong>
+</p>
+<h5>and in italics</h5>
+<p>
+	<i>
+		The additional characters for Te Reo Maori (the Māori Language) are:  ā, ē, ī, ō, ū, Ā, Ē, Ī, Ō and Ū.
+		<br />ā: code (&amp;#257;) shows as: &#257;, Ā: code (&amp;#256;) shows as: &#256;
+		<br />ē: code (&amp;#275;) shows as: &#275;, Ē: code (&amp;#274;) shows as: &#274;
+		<br />ī: code (&amp;#299;) shows as: &#299;, Ī: code (&amp;#298;) shows as: &#298;
+		<br />ō: code (&amp;#333;) shows as: &#333;, Ō: code (&amp;#332;) shows as: &#332;
+		<br />ū: code (&amp;#363;) shows as: &#363;, Ū: code (&amp;#362;) shows as: &#362;
+
+	</i>
+</p>
+<h5>and in italics + bold</h5>
+<p>
+	<strong><b>
+		<i><em>
+			The additional characters for Te Reo Maori (the Māori Language) are:  ā, ē, ī, ō, ū, Ā, Ē, Ī, Ō and Ū.
+			<br />ā: code (&amp;#257;) shows as: &#257;, Ā: code (&amp;#256;) shows as: &#256;
+			<br />ē: code (&amp;#275;) shows as: &#275;, Ē: code (&amp;#274;) shows as: &#274;
+			<br />ī: code (&amp;#299;) shows as: &#299;, Ī: code (&amp;#298;) shows as: &#298;
+			<br />ō: code (&amp;#333;) shows as: &#333;, Ō: code (&amp;#332;) shows as: &#332;
+			<br />ū: code (&amp;#363;) shows as: &#363;, Ū: code (&amp;#362;) shows as: &#362;
+		</em></i>
+	</strong>
+</p>
+
+
 <h4>example of heading 4</h4>
 <p>
 	Below is an example of a simple table.
