@@ -30,7 +30,7 @@ class TypographyTestPage extends Page {
 		"Content" => 'auto-completed - do not alter',
 	);
 
-	public function canCreate() {
+	public function canCreate($member = null) {
 		$bt = defined('DB::USE_ANSI_SQL') ? "\"" : "`";
 		return !DataObject::get("SiteTree", "{$bt}ClassName{$bt} = 'TypographyTestPage'");
 	}
